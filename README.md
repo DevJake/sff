@@ -26,7 +26,7 @@ To build and install from source:
 git clone https://github.com/do-me/sff.git
 cd sff
 cargo build --release
-cargo install --path .
+cargo install --path . --locked
 ```
 
 The binary will be available in `target/release/sff` and installed to `~/.cargo/bin/sff`.
